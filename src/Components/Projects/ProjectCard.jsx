@@ -28,10 +28,10 @@ const ProjectCard = ({ project }) => {
         onClick={() => navigate(_id)}
         className="bg-secondary-200 rounded group"
       >
-        <div className="w-full overflow-hidden relative">
+        <div className="w-full max-h-[250px] overflow-hidden relative">
           {loading && <img className=" absolute" src={loadingImg} alt="" />}
           <img
-            className="rounded-t group-hover:scale-110 duration-500 overflow-hidden"
+            className="rounded-t w-full group-hover:scale-110 duration-500 overflow-hidden"
             src={imgOne}
             alt=""
             onLoad={handleImageLoad}

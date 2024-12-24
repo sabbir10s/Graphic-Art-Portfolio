@@ -21,29 +21,14 @@
       "Tailwind CSS"
     ],
     "title": "An E-commerce site with User and Admin Functionality.",
-    "description": "Keycap is a React-based e-commerce platform for gadget enthusiasts.The project emphasizes reusability through the implementation of the React Context API. The website caters to both user and admin functionalities, ensuring a seamless experience for all stakeholders.",
-
-    "Features": {
-      "User-Centric Design": "Prioritized an intuitive user interface, allowing users to effortlessly browse, add products to the cart, and customize order quantities.",
-      "Order Tracking": "Users can track their orders in real-time, providing transparency and peace of mind.",
-      "Admin Functionality": "Admins enjoy a comprehensive suite of tools, including order management, product addition, and user management.",
-      "Reusable Components": "Employed React Context API to create reusable components, optimizing code efficiency and maintainability."
-    },
-    "Technology Stack": {
-      "Frontend": "React with reusable components.",
-      "Styling": "Tailwind for a clean and responsive design.",
-      "Backend": "Node and Express for robust server-side functionality.",
-      "Database": "MongoDB for efficient data storage and retrieval.",
-      "Payment Integration": "Integrated Stripe for secure and hassle-free transactions.",
-      "Authentication": "Implemented JWT and Firebase authentication, ensuring a secure and user-friendly experience"
-    }
+    "description": "Keycap is a React-based e-commerce platform for gadget enthusiasts.The project emphasizes reusability through the implementation of the React Context API. The website caters to both user and admin functionalities, ensuring a seamless experience for all stakeholders."
   },
   {
     "_id": "62a19fa5d80987322f93e128",
-    "imgOne": "https://i.ibb.co/7thj0jr/gravity.png",
+    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/3d5a2b183242747.653bd78608224.jpg",
     "imgTwo": "https://i.ibb.co/wSZG3NN/gravity2.png",
     "imgThree": "https://i.ibb.co/dbsFwkf/gravity3.png",
-    "name": "Gravity Ltd",
+    "name": "Restaurant Menu Design",
     "type": "team",
     "liveSite": "https://gravityltd.co/",
     "technology": ["React.js", "CSS", "Tailwind CSS"],
@@ -53,10 +38,22 @@
 
   {
     "_id": "62a19fa5d80987322f93e178",
-    "imgOne": "https://i.ibb.co/6bDRmdW/dailyBuy.png",
+    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4442ac178432121.64e7a301a2e7b.jpg",
     "imgTwo": "https://i.ibb.co/PgtfsjG/daily-Buy2.png",
     "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Daily-Buy-E-Commerce",
+    "name": "Youtube Cover Deign",
+    "type": "team",
+    "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
+    "technology": ["React.js", "Redux", "Tailwind CSS"],
+    "title": "Dynamic React application, catering to seamless user experiences.",
+    "description": "During my internship at Nur Software, I undertook a pivotal role as a front-end developer for the 'Daily-Buy-E-Commerce' project. The project involved transforming a meticulously designed Figma prototype into a responsive and dynamic React application, catering to seamless user experiences across various devices."
+  },
+  {
+    "_id": "62a19fa5d80987322f93e178",
+    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/51bed9178431717.64e7a19c35b16.jpg",
+    "imgTwo": "https://i.ibb.co/PgtfsjG/daily-Buy2.png",
+    "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
+    "name": "Facebook cover design",
     "type": "team",
     "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
     "technology": ["React.js", "Redux", "Tailwind CSS"],

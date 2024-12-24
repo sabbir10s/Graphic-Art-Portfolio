@@ -14,17 +14,22 @@ const About = () => {
 
         {/* Text Content */}
         <div className="w-full">
-          <h2 className="text-[#FFA500] text-lg uppercase font-semibold mb-2">
+          <h2 className="text-primary text-lg uppercase font-semibold mb-2">
             A Bit
           </h2>
-          <h1 className="text-4xl font-bold text-[#111827] mb-4">About Us</h1>
+          <h1 className="text-4xl font-bold text-secondary mb-4">About Us</h1>
           <p className="text-[#6B7280] leading-relaxed mb-6">
-            I’m a top online marketer and branding expert. I started my career
-            by launching the popular metaverse design. In just a few short
-            years, I built the brand to millions of social media followers and
-            website visitors. I also created award-winning online products with
-            millions of dollars in online sales. With me, you’ll get
-            personalized experiences worth upwards of $1000 an hour.
+            At Graphic Art, we specialize in crafting visually compelling
+            graphic design solutions that elevate brands and engage audiences.
+            From brand identity and print design to digital media and motion
+            graphics, our team blends creativity with strategy to deliver
+            designs that resonate. We believe design is more than just
+            aesthetics—it’s about creating meaningful connections and solving
+            business challenges. Whether you’re looking to establish a new
+            brand, refresh your visual identity, or launch a marketing campaign,
+            our agency is dedicated to producing custom design solutions that
+            leave a lasting impression and drive results. Let us bring your
+            vision to life through powerful design.
           </p>
 
           {/* Stats */}
@@ -45,10 +50,13 @@ const About = () => {
 
           {/* Buttons */}
           <div className="flex flex-wrap justify-start space-x-4">
-            <PrimaryButton title=" Hire me" type="fill" link="#" />
-            <button className="border-2 border-secondary-200 hover:border-secondary-300 text-secondary-800 duration-300 px-6 py-2 rounded flex items-center">
+            <PrimaryButton title="Contact Us" type="fill" link="#contact" />
+            <a
+              href="#projects"
+              className="border-2 border-secondary-200 hover:border-secondary-300 text-secondary-800 duration-300 px-6 py-2 rounded flex items-center"
+            >
               View work
-            </button>
+            </a>
           </div>
         </div>
       </section>
