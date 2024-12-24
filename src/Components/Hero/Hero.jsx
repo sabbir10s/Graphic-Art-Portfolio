@@ -1,6 +1,6 @@
 import React from "react";
 import PrimaryButton from "../../Shared/Button/PrimaryButton";
-import { FaBehance, FaDribbble, FaFacebookF, FaTwitter } from "react-icons/fa6";
+import { FaBehance, FaFacebookF, FaTwitter } from "react-icons/fa6";
 import banner from "../../Assets/image/banner.png";
 const Hero = () => {
   const ButtonStyle =
@@ -21,30 +21,43 @@ const Hero = () => {
             Professional Graphic Design Provider
           </h2>
           <p className="text-secondary-300 mt-4 leading-relaxed">
-            I’m a top online marketer and branding expert. I started my career
-            by launching the popular metaverse design. In just a few short
-            years, I built the brand to millions of social media followers and
-            website visitors.
+            we believe that graphic design is more than just creating
+            aesthetically pleasing visuals; it’s about crafting impactful and
+            meaningful experiences that communicate messages, solve problems,
+            and elevate brands. Our approach to design is rooted in strategy,
+            creativity, and innovation.
           </p>
           <div className="mt-6 flex items-center justify-start space-x-4">
             {/* <Button title=" Hire me" type="fill" /> */}
-            <PrimaryButton title=" Hire me" type="fill" link="#" />
-            <button className="border-2 border-secondary-200 hover:border-secondary-300 text-secondary-800 duration-300 px-6 py-2 rounded flex items-center">
+            <PrimaryButton title="Contact Us" type="fill" link="#contact" />
+            <a
+              href="#projects"
+              className="border-2 border-secondary-200 hover:border-secondary-300 text-secondary-800 duration-300 px-6 py-2 rounded flex items-center"
+            >
               View work
-            </button>
+            </a>
           </div>
           {/* Social Links */}
           <div className="mt-6 md:mt-12 flex items-center space-x-4">
-            <a href="#dribbble" className={ButtonStyle}>
-              <FaDribbble />
-            </a>
-            <a href="#behance" className={ButtonStyle}>
+            <a
+              target="_blank"
+              href="https://www.behance.net/shohelrana2a1c"
+              className={ButtonStyle}
+            >
               <FaBehance />
             </a>
-            <a href="#facebook" className={ButtonStyle}>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/mdshohelrana.shobo"
+              className={ButtonStyle}
+            >
               <FaFacebookF />
             </a>
-            <a href="#twitter" className={ButtonStyle}>
+            <a
+              target="_blank"
+              href="https://x.com/Shohelr47833278"
+              className={ButtonStyle}
+            >
               <FaTwitter />
             </a>
           </div>

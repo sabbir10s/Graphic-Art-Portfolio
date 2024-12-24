@@ -2,14 +2,21 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import ThreeD_LOGO_DESIGN from "../../Assets/icon/3D-LOGO-DESIGN.png";
+import FLYER_DESIGN from "../../Assets/icon/FLYER-DESIGN.png";
+import LOGO_DESIGN from "../../Assets/icon/LOGO-DESIGN.png";
+import MENU_DESIGN from "../../Assets/icon/MENU-DESIGN.png";
+import SOCIAL_MEDIA_DESIGN from "../../Assets/icon/SOCIAL-MEDIA-DESIGN.png";
+import TRIFOLD_DESIGN from "../../Assets/icon/TRIFOLD-DESIGN.png";
+import UI_UX_DESIGN from "../../Assets/icon/UI-UX-DESIGN.png";
+import YOUTUBE_COVER_DESIGN from "../../Assets/icon/YOUTUBE-COVER-DESIGN.png";
 const Services = () => {
   const services = [
     {
-      title: "Landing Page Design",
+      title: "3D-LOGO-DESIGN",
       description:
         "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      image: "https://via.placeholder.com/300x200", // Replace with actual image URL
+      image: ThreeD_LOGO_DESIGN,
     },
     {
       title: "Mobile App Design",
@@ -50,7 +57,7 @@ const Services = () => {
   };
 
   return (
-    <section className="py-16 bg-white">
+    <section className="pb-16 bg-white">
       <div className="container mx-auto text-center">
         <h2 className="text-sm font-bold text-primary uppercase mb-4">
           Services

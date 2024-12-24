@@ -139,10 +139,9 @@ const Navbar = () => {
                       <a
                         rel="noreferrer"
                         className="border border-white text-white px-3 py-[6px] rounded"
-                        href="#"
-                        target="_blank"
+                        href="#contact"
                       >
-                        Hire me
+                        Contact Us
                       </a>
                     </div>
                   </div>
@@ -187,7 +186,7 @@ const Navbar = () => {
               )}
             </div>
             <div>
-              <PrimaryButton title=" Hire me" type="fill" link="#" />
+              <PrimaryButton title="Contact Us" type="fill" link="#contact" />
             </div>
           </div>
         </div>
