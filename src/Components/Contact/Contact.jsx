@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { GrLinkedinOption } from "react-icons/gr";
 import { AiOutlineTwitter } from "react-icons/ai";
+import { FaBehance, FaDribbble, FaFacebookF, FaTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -29,11 +30,14 @@ const Contact = () => {
         }
       );
   };
+
+  const ButtonStyle =
+    "text-[#111827] hover:text-white hover:bg-primary duration-300 text-xl border border-secondary-200 hover:border-primary p-2";
   return (
     <>
       <Toaster position="top-center" reverseOrder={false} />
       <div id="contact">
-        <div className="grid gap-16 grid-cols-1 lg:grid-cols-2 justify-center items-start">
+        <div className="py-6 md:py-12 grid gap-16 grid-cols-1 lg:grid-cols-2 justify-center items-start">
           <div>
             <h2 className="text-secondary text-4xl">Contact us</h2>
             <p className="text-sm text-secondary-300 pt-2 pb-10">
@@ -57,23 +61,21 @@ const Contact = () => {
 
             <div className="grid grid-cols-3 border-b border-dashed border-text-success text-secondary-300 py-5">
               <div className="col-span-1 grid grid-cols-2 gap-5">
-                <strong>Social</strong>
+                <strong>Others</strong>
                 <strong className="text-primary"> :</strong>
               </div>
               <div className="col-span-2 flex gap-5 text-primary text-lg">
-                <a
-                  className="btn_effect border border-secondary bg-accent rounded-full p-2"
-                  href="https://www.linkedin.com/in/sabbir10s/"
-                  target="_blank"
-                >
-                  <GrLinkedinOption />
+                <a href="#dribbble" className={ButtonStyle}>
+                  <FaDribbble />
                 </a>
-                <a
-                  className="btn_effect border border-secondary bg-accent rounded-full p-2"
-                  href="https://twitter.com/sabbir10s"
-                  target="_blank"
-                >
-                  <AiOutlineTwitter />
+                <a href="#behance" className={ButtonStyle}>
+                  <FaBehance />
+                </a>
+                <a href="#facebook" className={ButtonStyle}>
+                  <FaFacebookF />
+                </a>
+                <a href="#twitter" className={ButtonStyle}>
+                  <FaTwitter />
                 </a>
               </div>
             </div>
