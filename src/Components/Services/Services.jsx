@@ -15,49 +15,49 @@ const Services = () => {
     {
       title: "3D LOGO DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "A 3D logo design adds depth, dimension, and visual interest to a brand’s identity. It creates a more engaging, modern, and dynamic representation of the company’s values. By using various colors, textures, and lighting effects.",
       image: ThreeD_LOGO_DESIGN,
     },
     {
       title: "FLYER DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "A flyer design is a powerful marketing tool that captures attention and communicates key information quickly. Whether for events, promotions, or business services, a well-designed flyer uses bold visuals.",
       image: FLYER_DESIGN,
     },
     {
       title: "LOGO DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Logo design is the process of creating a visual symbol that represents a brand or company. A well-crafted logo captures the essence of the brand’s identity, values, and mission. It uses colors, shapes.",
       image: LOGO_DESIGN,
     },
     {
       title: "MENU DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "A restaurant menu design is essential for showcasing a restaurant’s offerings in an appealing and organized manner. It reflects the establishment’s branding, atmosphere, and culinary style.",
       image: MENU_DESIGN,
     },
     {
       title: "SOCIAL MEDIA DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Social media design focuses on creating visually appealing content tailored for various platforms like Instagram, Facebook, and Twitter. It includes graphics, posts, banners, and ads that align with the brand’s identity and message.",
       image: SOCIAL_MEDIA_DESIGN,
     },
     {
       title: "TRIFOLD DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "Trifold design is a popular layout for brochures, featuring three panels that fold to create a compact, informative presentation. It allows for a structured flow of content, making it ideal for marketing materials.",
       image: TRIFOLD_DESIGN,
     },
     {
       title: "UI UX DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "UI/UX design focuses on creating seamless and engaging user experiences for digital products. UI design deals with the layout, visuals, and interactivity, while UX (User Experience) design ensures the overall functionality.",
       image: UI_UX_DESIGN,
     },
     {
       title: "YOUTUBE COVER DESIGN",
       description:
-        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "A YouTube cover design is the first impression of a channel, setting the tone for its content. It visually represents the brand, theme, or niche, ensuring consistency and attracting viewers. A well-designed cover combines creativity.",
       image: YOUTUBE_COVER_DESIGN,
     },
   ];
@@ -111,7 +111,9 @@ const Services = () => {
                   <h3 className="text-2xl capitalize font-semibold text-gray-800 mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm">{service.description}</p>
+                  <p className="text-gray-600 text-sm text-justify">
+                    {service.description}
+                  </p>
                 </div>
               </div>
             </div>

@@ -56,7 +56,10 @@ const Contact = () => {
                 <strong> Email</strong>
                 <strong className="text-primary"> :</strong>
               </div>
-              <p className=" col-span-2">contactus@gmail.com</p>
+              <div className="col-span-2">
+                <p>shohelranashuvo01840@gmail.com</p>
+                <p>hriditaislam1234@ gmail.com</p>
+              </div>
             </div>
 
             <div className="grid grid-cols-3 border-b border-dashed border-text-success text-secondary-300 py-5">
@@ -65,16 +68,25 @@ const Contact = () => {
                 <strong className="text-primary"> :</strong>
               </div>
               <div className="col-span-2 flex gap-5 text-primary text-lg">
-                <a href="#dribbble" className={ButtonStyle}>
-                  <FaDribbble />
-                </a>
-                <a href="#behance" className={ButtonStyle}>
+                <a
+                  target="_blank"
+                  href="https://www.behance.net/shohelrana2a1c"
+                  className={ButtonStyle}
+                >
                   <FaBehance />
                 </a>
-                <a href="#facebook" className={ButtonStyle}>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/mdshohelrana.shobo"
+                  className={ButtonStyle}
+                >
                   <FaFacebookF />
                 </a>
-                <a href="#twitter" className={ButtonStyle}>
+                <a
+                  target="_blank"
+                  href="https://x.com/Shohelr47833278"
+                  className={ButtonStyle}
+                >
                   <FaTwitter />
                 </a>
               </div>
