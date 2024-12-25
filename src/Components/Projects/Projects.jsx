@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 
+const url =
+  "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("projectData.json")
+    fetch(url)
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
