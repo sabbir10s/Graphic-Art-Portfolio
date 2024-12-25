@@ -12,11 +12,16 @@ const ProjectDetails = () => {
   }, []);
   const { projectID } = useParams();
 
-  if (!projects.length) {
+  // if (!projects.length) {
+  //   return <>Loading</>;
+  // }
+
+  const project = projects.filter((project) => projectID === project._id);
+  if (!project) {
     return <>Loading</>;
   }
 
-  const project = projects.find((project) => projectID === project._id);
+  console.log(project);
   const {
     _id,
     imgOne,
