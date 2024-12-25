@@ -1,100 +1,46 @@
 [
   {
-    "_id": "62a19fa5d80987322f93e18",
+    "_id": "a5d80987322f93e18",
     "imgOne": "https://i.ibb.co.com/9Y4n9vr/sdaf.jpg",
     "imgTwo": "https://i.ibb.co.com/0FKTpdg/sfgesdr.jpg",
-    "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Logo Deign",
-    "type": "team",
-    "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
-    "technology": ["React.js", "Redux", "Tailwind CSS"],
-    "title": "Dynamic React application, catering to seamless user experiences.",
-    "description": "During my internship at Nur Software, I undertook a pivotal role as a front-end developer for the 'Daily-Buy-E-Commerce' project. The project involved transforming a meticulously designed Figma prototype into a responsive and dynamic React application, catering to seamless user experiences across various devices."
+    "name": "Logo Deign"
   },
   {
-    "_id": "62a19fa5d0987322f93e178",
+    "_id": "62a1a5d0987322f93e178",
     "imgOne": "https://i.ibb.co.com/ZGq4HCp/ggg.jpg",
     "imgTwo": "https://i.ibb.co.com/r04vTK3/frdgdg.jpg",
-    "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Logo Deign",
-    "type": "team",
-    "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
-    "technology": ["React.js", "Redux", "Tailwind CSS"],
-    "title": "Dynamic React application, catering to seamless user experiences.",
-    "description": "During my internship at Nur Software, I undertook a pivotal role as a front-end developer for the 'Daily-Buy-E-Commerce' project. The project involved transforming a meticulously designed Figma prototype into a responsive and dynamic React application, catering to seamless user experiences across various devices."
+    "name": "Logo Deign"
   },
   {
-    "_id": "62a19fa5d80987322f3e178",
+    "_id": "62a19fa5d80987322f3e1748",
     "imgOne": "https://i.ibb.co.com/rfXxTjx/78tr.jpg",
     "imgTwo": "https://i.ibb.co.com/ct3qLkZ/Untitled-1.jpg",
-    "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Logo Deign",
-    "type": "team",
-    "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
-    "technology": ["React.js", "Redux", "Tailwind CSS"],
-    "title": "Dynamic React application, catering to seamless user experiences.",
-    "description": "During my internship at Nur Software, I undertook a pivotal role as a front-end developer for the 'Daily-Buy-E-Commerce' project. The project involved transforming a meticulously designed Figma prototype into a responsive and dynamic React application, catering to seamless user experiences across various devices."
+    "name": "Logo Deign"
   },
   {
     "_id": "62a19a5d80987322f93e178",
     "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/588ebe183242747.653bd7860ab10.jpg",
     "imgTwo": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/fde12b183242747.653bd7860e4e0.jpg",
-    "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Restaurant menu Deign",
-    "type": "team",
-    "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
-    "technology": ["React.js", "Redux", "Tailwind CSS"],
-    "title": "Dynamic React application, catering to seamless user experiences.",
-    "description": "During my internship at Nur Software, I undertook a pivotal role as a front-end developer for the 'Daily-Buy-E-Commerce' project. The project involved transforming a meticulously designed Figma prototype into a responsive and dynamic React application, catering to seamless user experiences across various devices."
+    "name": "Restaurant menu Deign"
   },
   {
     "_id": "62a19fa5d987322f93e128",
     "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/3d5a2b183242747.653bd78608224.jpg",
     "imgTwo": "https://i.ibb.co/wSZG3NN/gravity2.png",
-    "imgThree": "https://i.ibb.co/dbsFwkf/gravity3.png",
-    "name": "Restaurant Menu Design",
-    "type": "team",
-    "liveSite": "https://gravityltd.co/",
-    "technology": ["React.js", "CSS", "Tailwind CSS"],
-    "title": "A Digital Marketing Agency Website with Stylish CSS Transitions",
-    "description": "In my role as a front-end developer at Gravity, I spearheaded the creation of our website using React, Tailwind, custom components, and CSS transitions. I introduced smooth transitions and crafted a distinctive custom modal to enhance user engagement. Collaborating closely with the UI/UX designer, I incorporated valuable feedback to refine the website's design. This project, my inaugural effort, is now seamlessly hosted under its domain name. It serves as a testament to Gravity's commitment to providing tailored IT and digital branding solutions, achieving remarkable business outcomes. Explore the culmination of technology and design in this showcase, reflecting Gravity's dedication to digital excellence and innovation."
+    "name": "Restaurant Menu Design"
   },
 
   {
     "_id": "62a19fa5d0987322f93e178",
     "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/25ce87183242747.653bd7860f503.jpg",
     "imgTwo": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/da4cc4183242747.653bd78609043.jpg",
-    "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Restaurant menu Deign",
-    "type": "team",
-    "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
-    "technology": ["React.js", "Redux", "Tailwind CSS"],
-    "title": "Dynamic React application, catering to seamless user experiences.",
-    "description": "During my internship at Nur Software, I undertook a pivotal role as a front-end developer for the 'Daily-Buy-E-Commerce' project. The project involved transforming a meticulously designed Figma prototype into a responsive and dynamic React application, catering to seamless user experiences across various devices."
+    "name": "Restaurant menu Deign"
   },
 
   {
     "_id": "62a19fa533a48284f1a3e",
     "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ee339c214861753.676029f1a1808.jpg",
     "imgTwo": "https://i.ibb.co.com/GdBkLJw/9008139-4047889.jpg",
-    "imgThree": "https://i.ibb.co/mhZKyrD/keycap3.png",
-    "name": "UI/UX Design",
-    "type": "personal",
-    "clientRepo": "https://github.com/sabbir10s/keycap-client",
-    "serverRepo": "https://github.com/sabbir10s/keycap-server",
-    "liveSite": "https://keycap-54919.web.app",
-    "technology": [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Firebase",
-      "JWT",
-      "Hook Form",
-      "Stripe",
-      "Tailwind CSS"
-    ],
-    "title": "An E-commerce site with User and Admin Functionality.",
-    "description": "Keycap is a React-based e-commerce platform for gadget enthusiasts.The project emphasizes reusability through the implementation of the React Context API. The website caters to both user and admin functionalities, ensuring a seamless experience for all stakeholders."
+    "name": "UI/UX Design"
   }
 ]
