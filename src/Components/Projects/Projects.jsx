@@ -23,7 +23,7 @@ const Projects = () => {
             Check Our Recent Work
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           {projects.map((project, index) => (
             <ProjectCard index={index} key={project._id} project={project} />
           ))}

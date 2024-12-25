@@ -38,10 +38,10 @@
 
   {
     "_id": "62a19fa5d80987322f93e178",
-    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4442ac178432121.64e7a301a2e7b.jpg",
-    "imgTwo": "https://i.ibb.co/PgtfsjG/daily-Buy2.png",
+    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/588ebe183242747.653bd7860ab10.jpg",
+    "imgTwo": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/fde12b183242747.653bd7860e4e0.jpg",
     "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Youtube Cover Deign",
+    "name": "Restaurant menu Deign",
     "type": "team",
     "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
     "technology": ["React.js", "Redux", "Tailwind CSS"],
@@ -50,10 +50,10 @@
   },
   {
     "_id": "62a19fa5d80987322f93e178",
-    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/51bed9178431717.64e7a19c35b16.jpg",
-    "imgTwo": "https://i.ibb.co/PgtfsjG/daily-Buy2.png",
+    "imgOne": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/25ce87183242747.653bd7860f503.jpg",
+    "imgTwo": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/da4cc4183242747.653bd78609043.jpg",
     "imgThree": "https://i.ibb.co/2vJ22mQ/daily-Buy3.png",
-    "name": "Facebook cover design",
+    "name": "Restaurant menu Deign",
     "type": "team",
     "liveSite": "https://daily-buy-e-commerce-react.vercel.app/",
     "technology": ["React.js", "Redux", "Tailwind CSS"],
