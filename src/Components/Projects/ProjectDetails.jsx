@@ -22,8 +22,8 @@ const ProjectDetails = () => {
     _id,
     imgOne,
     imgTwo,
-    title,
     name,
+    title,
     type,
     clientRepo,
     serverRepo,
@@ -34,8 +34,9 @@ const ProjectDetails = () => {
   return (
     <div>
       <div className="mt-32 px-8 min-h-screen">
-        <img className="w-full mx-auto" src={imgOne} alt="" />
         <h2 className="text-[44px] font-bold md:mb-2 mt-10">{name}</h2>
+        <img className="w-full mx-auto" src={imgOne} alt="" />
+        <img className="w-full mx-auto" src={imgTwo} alt="" />
         <p>{description}</p>
       </div>
     </div>

@@ -1,9 +1,7 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import { GrLinkedinOption } from "react-icons/gr";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { FaBehance, FaDribbble, FaFacebookF, FaTwitter } from "react-icons/fa6";
+import { FaBehance, FaFacebookF, FaTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -11,10 +9,10 @@ const Contact = () => {
     const name = e.target.name.value;
     emailjs
       .sendForm(
-        "service_hejba76",
-        "template_xxcvyor",
+        "service_mt3zo93",
+        "template_dcz7q9a",
         e.target,
-        "Eaihc3JItxJDAUTLh"
+        "SFAHjBr49XP_0Pd3c"
       )
       .then(
         (result) => {

@@ -5,9 +5,7 @@ import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json"
-    )
+    fetch("projectData.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

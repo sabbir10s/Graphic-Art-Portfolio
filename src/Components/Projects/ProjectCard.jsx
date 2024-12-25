@@ -25,16 +25,15 @@ const ProjectCard = ({ project }) => {
   return (
     <>
       <button onClick={() => navigate(_id)} className="bg-secondary-200 group">
-        <div className="w-full overflow-hidden relative">
+        <div className="w-full max-h-[350px] overflow-hidden relative">
           {loading && <img className=" absolute" src={loadingImg} alt="" />}
           <img
-            className="w-full object-fill group-hover:scale-110 duration-500 overflow-hidden"
+            className="w-full object-cover h-[350px] group-hover:scale-110 duration-500 overflow-hidden"
             src={imgOne}
             alt=""
             onLoad={handleImageLoad}
           />
         </div>
-        <div className="h-full w-full bg-light absolute"> </div>
       </button>
     </>
   );
