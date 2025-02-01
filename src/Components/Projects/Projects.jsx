@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
-import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 
 const url =
   "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
