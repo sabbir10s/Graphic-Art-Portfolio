@@ -6,18 +6,24 @@ import Projects from "../../Components/Projects/Projects";
 import Services from "../../Components/Services/Services";
 import WhyChooseUs from "../../Components/whyChooseUs/whyChooseUs";
 import Loading from "../../Shared/Loading";
+// const url =
+//   "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
 const url =
-  "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
+  "https://raw.githubusercontent.com/sabbir10s/server/refs/heads/main/graphicArt.json";
 // const url = "projectData.json";
 const Home = () => {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setProjects(data);
+        setLoading(false);
+      });
   }, []);
 
-  if (projects.length === 0) {
+  if (loading) {
     return <Loading />;
   }
   return (

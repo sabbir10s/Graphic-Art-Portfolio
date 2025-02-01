@@ -1,25 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loading from "../../Shared/Loading";
+
 const url =
-  "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
+  "https://raw.githubusercontent.com/sabbir10s/server/refs/heads/main/graphicArt.json";
 // const url = "projectData.json";
 const ProjectDetails = () => {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setProjects(data);
+        setLoading(false);
+      });
   }, []);
   const { projectID } = useParams();
 
-  // if (!projects.length) {
-  //   return <Loading />;
-  // }
-  const project = projects.find((project) => projectID === project._id);
   if (projects.length === 0) {
     return <Loading />;
   }
+  const project = projects.find((project) => projectID === project._id);
+
   const { imgOne, imgTwo, name, description } = project;
   return (
     <div>
