@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Loading from "../../Shared/Loading";
 const url =
   "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
 // const url = "projectData.json";
@@ -12,17 +13,14 @@ const ProjectDetails = () => {
   }, []);
   const { projectID } = useParams();
 
-  if (!projects.length) {
-    return <>Loading</>;
-  }
-
+  // if (!projects.length) {
+  //   return <Loading />;
+  // }
   const project = projects.find((project) => projectID === project._id);
-  if (!project) {
-    return <>Loading</>;
+  if (projects.length === 0) {
+    return <Loading />;
   }
-
-  console.log(project);
-  const { _id, imgOne, imgTwo, name, description } = project;
+  const { imgOne, imgTwo, name, description } = project;
   return (
     <div>
       <div className="mt-32 px-8 min-h-screen">

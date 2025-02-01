@@ -1,17 +1,7 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 
-const url =
-  "https://raw.githubusercontent.com/sabbir10s/Graphic-Art-Portfolio/refs/heads/main/public/projectData.json";
-// const url = "projectData.json";
-const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
-
+const Projects = ({ projects }) => {
   return (
     <section>
       <div id="projects">
