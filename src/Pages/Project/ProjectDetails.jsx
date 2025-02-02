@@ -4,7 +4,7 @@ import Loading from "../../Shared/Loading";
 
 const url =
   "https://raw.githubusercontent.com/sabbir10s/server/refs/heads/main/graphicArt.json";
-// const url = "projectData.json";
+
 const ProjectDetails = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -18,10 +18,10 @@ const ProjectDetails = () => {
   }, []);
   const { projectID } = useParams();
 
-  if (projects.length === 0) {
+  if (loading && !projects.length) {
     return <Loading />;
   }
-  const project = projects.find((project) => projectID === project._id);
+  const project = projects.find((project) => project._id === projectID);
 
   const { imgOne, imgTwo, name, description } = project;
   return (

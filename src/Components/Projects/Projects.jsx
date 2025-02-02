@@ -1,7 +1,25 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
+import Loading from "../../Shared/Loading";
 
-const Projects = ({ projects }) => {
+const url =
+  "https://raw.githubusercontent.com/sabbir10s/server/refs/heads/main/graphicArt.json";
+
+const Projects = () => {
+  const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
   return (
     <section>
       <div id="projects">

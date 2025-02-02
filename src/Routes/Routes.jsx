@@ -1,26 +1,30 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../Pages/Home/Home";
-import Main from "../Layout/Main";
-import ProjectDetails from "../Components/Projects/ProjectDetails";
+import Layout from "../Layout/Layout";
 import NotFound from "../Shared/NotFound/NotFound";
-// import ProjectDetails from "../Pages/ProjectDetails/ProjectDetails";
+import ProjectDetails from "../Pages/Project/ProjectDetails";
 
 export const router = createBrowserRouter([
+  // Main Layout for Home and general pages
   {
     path: "/",
-    element: <Main />,
+    element: <Layout />,
     errorElement: <NotFound />,
     children: [
       {
-        path: "/",
+        index: true, // 👈 "/" will load Home
         element: <Home />,
       },
+    ],
+  },
+  // Separate route for project details (Not inside Home's Layout)
+  {
+    path: "/:projectID", // 👈 Better structured path
+    element: <Layout />, // 👈 Uses same layout (or a different one if needed)
+    errorElement: <NotFound />,
+    children: [
       {
-        path: "/home",
-        element: <Home />,
-      },
-      {
-        path: "/:projectID",
+        index: true,
         element: <ProjectDetails />,
       },
     ],
